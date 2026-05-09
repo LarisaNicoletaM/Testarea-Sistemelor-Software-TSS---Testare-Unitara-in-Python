@@ -44,3 +44,15 @@ Am folosit ChatGPT pentru:
 - găsirea de idei de testare
 - exemple de testare a mutațiilor
 - îmbunătățirea documentației
+
+## Screenshots
+
+### Pytest Rezultate
+![Pytest](./pytest_result.png)
+
+### Mutation Testare
+![Mutmut](./mutmut_run.png)
+
+### Mutmut Rezultate
+![Results](./mutmut_results.png)
+###  Proiect Pycharm
