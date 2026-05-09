@@ -56,3 +56,4 @@ Am folosit ChatGPT pentru:
 ### Mutmut Rezultate
 ![Results](./mutmut_results.png)
 ###  Proiect Pycharm
+![Results](./project_pycharm.png)
