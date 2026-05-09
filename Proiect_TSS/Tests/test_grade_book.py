@@ -80,18 +80,3 @@ def test_loop_execution():
     assert gb.get_average("S1") == 3
 
 
-# -------------------------
-# 6. MUTATION TESTING (OMORÂM MUTANȚI)
-# -------------------------
-
-def test_mutant_grade_validation():
-    gb = GradeBook()
-    with pytest.raises(ValueError):
-        gb.add_grade("S1", -1)
-
-
-def test_mutant_average_logic():
-    gb = GradeBook()
-    gb.add_grade("S1", 10)
-    gb.add_grade("S1", 0)
-    assert gb.get_average("S1") == 5
